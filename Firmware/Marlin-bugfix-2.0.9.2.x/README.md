@@ -1,3 +1,10 @@
+This is a modified version of Marlin that is based off of the BTT Octopus firmware to work with an AnyCubic Chiron.  It uses the original display, the original homing sensors NOT sensorless homing, TMC2209 drivers in UART mode, a BL-Touch, and an all metal hotend.  I also rewired my entire printer when doing this modification, so I cannot guarantee the stock wiring will line up exactly, especially with the breakout boards.  You will likely need to change the pins of the plug to work with the AnyCubic display.  The pins are silkscreened on the back of the display because I've found colors likely vary between printers.  I also disabled Z software endstop to allow me to go below 0 in order to set the Z offset.  Use at your own risk.  It works on my printer, but I make no guarantees it is fit for any use or purpose.  I compiled it using VSCode using BIGTREE_OCTOPUS_V1_USB as the board.  I changed the Configuraton.h, Configuration_Adv.h, the Pins file, the Display file for the Chiron, and the Signature.py file that kept the original firmware from compiling for me.  I will upload a picture of my pinout shortly.
+
+
+
+
+
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)

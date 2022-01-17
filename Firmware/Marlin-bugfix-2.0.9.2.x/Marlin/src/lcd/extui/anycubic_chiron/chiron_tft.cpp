@@ -76,9 +76,9 @@ void ChironTFT::Startup() {
   // Two IO pins are connected on the Trigorilla Board
   // On a power interruption the OUTAGECON_PIN goes low.
 
-  #if ENABLED(POWER_LOSS_RECOVERY)
-    OUT_WRITE(OUTAGECON_PIN, HIGH);
-  #endif
+ // #if ENABLED(POWER_LOSS_RECOVERY)
+ //   OUT_WRITE(OUTAGECON_PIN, HIGH);
+ // #endif
 
   // Filament runout is handled by Marlin settings in Configuration.h
   // opt_set    FIL_RUNOUT_STATE HIGH  // Pin state indicating that filament is NOT present.

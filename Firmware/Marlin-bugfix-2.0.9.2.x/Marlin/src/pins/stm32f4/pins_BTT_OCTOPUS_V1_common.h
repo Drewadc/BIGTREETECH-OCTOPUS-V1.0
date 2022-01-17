@@ -136,7 +136,7 @@
     #define Z_MIN_PIN                 Z_DIAG_PIN  // Z-STOP
   #endif
   #ifndef Z_MAX_PIN
-    #define Z_MAX_PIN                E2_DIAG_PIN  // PWRDET
+    #define Z_MAX_PIN                Z2_DIAG_PIN  // Z2-STOP
   #endif
 #else
   #define Z_STOP_PIN                  Z_DIAG_PIN  // Z-STOP
@@ -427,6 +427,10 @@
 //
 // LCDs and Controllers
 //
+#ifndef BEEPER_PIN
+  #define BEEPER_PIN EXP1_10_PIN
+#endif
+
 #if IS_TFTGLCD_PANEL
 
   #if ENABLED(TFTGLCD_PANEL_SPI)

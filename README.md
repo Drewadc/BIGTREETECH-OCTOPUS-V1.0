@@ -1,4 +1,4 @@
-This is a fork of the BTT Octopus firmware for the AnyCubic Chiron.  Details are in the sub folder, but I make no warranty or guarantee to this firmware.  It is what I use on my printer and may or may not be suitable for yours.
+This is a fork of the BTT Octopus firmware for the AnyCubic Chiron.  Details are in the sub folder, but I make no warranty or guarantee to this firmware.  It is what I use on my printer and may or may not be suitable for yours.  Use entirely at your own risk.
 
 ## BigTreeTech Octopus
 

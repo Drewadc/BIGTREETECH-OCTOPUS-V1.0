@@ -1,0 +1,1 @@
+The firmware.bin is a compiled version of the source code in the Marlin folder.  I STRONGLY recommend you compile your own so you know exactly what is setup.  I make no guarantee that this is fit for any purpose other than my own.
